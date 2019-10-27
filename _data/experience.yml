@@ -1,0 +1,37 @@
+# Experience template
+- layout: left
+  company: Venture Strategy Solutions
+  link: https://www.berkeleyvss.com
+  job_title: Strategy Consultant
+  dates: Date Range (eg. September 2019 - Present)
+  # quote: >
+  #  Berkeley Venture is a Student Consulting Group at Cal focusing on strategic consulting for high growth startups worldwide.
+  description: | # this will include new lines to allow paragraphs
+    Consulted for a Series D startup sports analytics company and developed executable UI/UX design plans and platform mockups to drive user engagement and retention on the platform
+
+    Investigated the issue of user engagement through UI/UX research into the best practices for implementing changes to slash user attrition
+
+    Built unique advertising techniques breaking from traditional advertising models to increase user traffic and enhance user product retention
+- layout: left
+  company: Cisco Systems, Inc.
+  link: https://www.berkeleyvss.com
+  job_title: Strategy Consultant
+  dates: Date Range (eg. June 2018 - July 2018)
+  # quote: >
+  #  Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    Leveraged Python and R to draw insights from 1M+ real-time datapoints utilizing an implementation of A* algorithm to improve the efficiency of the rebuilding of Puerto Rican computer networks alongside the Cisco TacOps Team in the aftermath of Hurricane Maria.
+
+    Presented Unifi, a conceptual biometric technology application intended to simplify public transportation through big data and the seamless integration of disparate transportation systems into a single interface, to a panel of Cisco Executives through the Capstone Innovation Challenge
+
+- layout: left
+  company: REAN Cloud, LLC.
+  link: https://www.hitachivantara.com/en-us/services/cloud-services
+  job_title: Amazon Web Services Intern
+  dates: Date Range (eg. July 2017 - August 2017)
+  # quote: >
+  #  Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    Collaborated with CEO and CTO to deploy a dynamic, efficient solution for delivering company information to an array of clients, customers, contractors and employees through interactive and user-engaging mobile and Amazon devices to handle 200 unique requests per day.
+
+    Developed the first public corporate Alexa skill for REAN Cloud implementing nodeJS and AWS (Lamdba \& EC2 \& RDS) frameworks

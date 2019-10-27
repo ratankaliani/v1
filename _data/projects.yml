@@ -1,0 +1,9 @@
+# Project template
+- layout: top-middle
+  name: DeepMotions
+  # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  github: ratankaliani/DeepMotions
+  quote: >
+    DeepMotions is a real-time sentiment analysis project that delivers emotion recognition and voice analysis directly to everday lives through an effective and easy to use interface.
+  description: | # this will include new lines to allow paragraphs
+    Utilized the applied ML DeepAffects API in coordination with a dynamic MySQL database to push an asynchronous audio analysis based real-time emotion recognition platform that slashes manual emotion recognition processing time for multi-user audio by 93%.
