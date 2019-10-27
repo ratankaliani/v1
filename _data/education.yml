@@ -3,8 +3,8 @@
   name: University of California, Berkeley
   dates: "Expected Graduation: May 2022"
   qualification: B.S. Electrical Engineering & Computer Sciences
-  quote: >
-    Short institution or course description (optional)
+  # quote: >
+  #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
     Computer Science 61A (Structure and Interpretation of Computer Programs; Python)
 
@@ -17,11 +17,11 @@
   name: Thomas Jefferson High School for Science and Technology
   dates: "2015 - 2019"
   qualification: Jefferson Diploma
-  quote: >
-    Short institution or course description (optional)
+  # quote: >
+  #   Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
     Parallel Computing (C)
 
     Artifical Intelligence (Python)
-    
+
     Mobile/Web Application Development & Research (Java/nodeJS).
