@@ -32,9 +32,9 @@ about_content: | # this will include new lines to allow paragraphs
   Looking for <mark>software engineering internships</mark> for the <mark>Summer of 2020</mark>. 
 
   <mark>What I'm Currently Working On:</mark>
-    - Strategy Consultant for a Series D sports software startup analyzing UI/UX design and market penetration tactics.
+    - Strategy Consultant for Hudl, a sports software company, analyzing UI/UX design and market penetration tactics.
     - Streami, an app that connects strangers who want to watch movies at the theater with other people.
-    - Learning the ReactJS framework to prepare for CalHacks 6.0 and future hackathons.
+    - Learning the ReactJS framework to prepare for future hackathons.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -48,9 +48,8 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  I love playing basketball and table tennis recreationally, and recently I've been developing
+  an affinity for working with crypto and blockchain technologies.
 
 # Footer
 footer_show_references: true
