@@ -5,33 +5,39 @@ import './App.css';
 
 function App() {
     return (
-      <div id="particle-canvas">
-        <Particles
-          params={{
-            "particles": {
-              "color": {
-                "value": "#ffffff"
+      <div className="App">
+        <div id="name"> 
+            Ratan Kaliani
+        </div>
+        <div id="particle-canvas">
+          
+          <Particles
+            params={{
+              "particles": {
+                "color": {
+                  "value": "#ffffff"
+                },
+                "number": {
+                  "value": 100
+                },
+                "opacity": {
+                  "value": 0.4
+                },
+                "size": {
+                  "value": 2
+                }
               },
-              "number": {
-                "value": 100
-              },
-              "opacity": {
-                "value": 1
-              },
-              "size": {
-                "value": 4
-              }
-            },
-            "interactivity": {
-              "events": {
-                "onhover": {
-                  "enable": true,
-                  "mode": "repulse"
+              "interactivity": {
+                "events": {
+                  "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                  }
                 }
               }
-            }
-          }}
-        />
+            }}
+          />
+        </div>
       </div>
     );
   }
