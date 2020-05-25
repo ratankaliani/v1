@@ -5,15 +5,21 @@ import './App.css';
 
 function App() {
     return (
-      <div className="particle-canvas">
+      <div id="particle-canvas">
         <Particles
           params={{
             "particles": {
+              "color": {
+                "value": "#ffffff"
+              },
               "number": {
-                "value": 50
+                "value": 100
+              },
+              "opacity": {
+                "value": 1
               },
               "size": {
-                "value": 3
+                "value": 4
               }
             },
             "interactivity": {
