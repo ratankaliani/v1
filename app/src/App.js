@@ -71,7 +71,7 @@ function App() {
           </div>
           <div className="icon">
             <SocialIcon
-              url = "https://medium.com/ratankaliani"
+              url = "https://medium.com/@ratankaliani"
               target = "_blank"
             />
           </div>
