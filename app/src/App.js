@@ -22,8 +22,10 @@ function App() {
         </div>
         <div className="navigation">
           <div className="button">
-              <AwesomeButton type="primary">
-                Primary</AwesomeButton>{' '}
+              <AwesomeButton type="primary"
+              href="https://drive.google.com/file/d/17BqvYHprrhmrAFD0CZCLNvR51NQ20B4v/view?usp=sharing"
+              target="_blank">
+                Resume</AwesomeButton>{' '}
           </div>
           <div className="button">
           <AwesomeButton type="primary"
@@ -95,7 +97,7 @@ function App() {
                   },
                   "move": {
                       "direction": "right",
-                      "speed": 0.1
+                      "speed": 0.2
                   },
                   "size": {
                       "value": 1
