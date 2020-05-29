@@ -21,23 +21,24 @@ export default class HomeView extends React.Component {
                 </div>
                 <div className="navigation">
                     <div className="button">
+                    <AwesomeButton type="primary"
+                        >Home</AwesomeButton>{' '}
+                    </div>
+                    <div className="button">
+                    <AwesomeButton type="primary"
+                        >About</AwesomeButton>{' '}
+                    </div>
+                    <div className="button">
+                    <AwesomeButton type="primary"
+                        >Portfolio</AwesomeButton>{' '}
+                    </div>
+                    <div className="button">
                         <AwesomeButton type="primary"
                         href="https://drive.google.com/file/d/17BqvYHprrhmrAFD0CZCLNvR51NQ20B4v/view?usp=sharing"
                         target="_blank">
                             Resume</AwesomeButton>{' '}
                     </div>
-                    <div className="button">
-                    <AwesomeButton type="primary"
-                        >Primary</AwesomeButton>{' '}
-                    </div>
-                    <div className="button">
-                    <AwesomeButton type="primary"
-                        >Primary</AwesomeButton>{' '}
-                    </div>
-                    <div className="button">
-                    <AwesomeButton type="primary"
-                        >Primary</AwesomeButton>{' '}
-                    </div>
+                    
                 </div>
                     <div className="socialicons">
                     <div className="icon">
