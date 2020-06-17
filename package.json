@@ -1,0 +1,73 @@
+{
+  "name": "mxstbr.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "flow": "flow"
+  },
+  "dependencies": {
+    "@mapbox/rehype-prism": "^0.3.0",
+    "@mdx-js/loader": "^0.20.3",
+    "@mdx-js/mdx": "^0.20.3",
+    "@mdx-js/tag": "^0.20.3",
+    "@next/mdx": "^9.1.3",
+    "body-parser": "^1.19.0",
+    "conditional-wrap": "^1.0.0",
+    "cookie-parser": "^1.4.4",
+    "cookie-session": "^1.3.3",
+    "cors": "^2.8.5",
+    "date-fns": "^1.30.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.1.3",
+    "next-ga": "^2.3.4",
+    "p-timeout": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4",
+    "prismjs": "^1.15.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-feather": "^1.1.6",
+    "react-twitter-embed": "^3.0.3",
+    "rebass": "^3.0.0-9",
+    "slugg": "^1.2.1",
+    "styled-components": "^4.4.1",
+    "styled-reset": "^1.6.4",
+    "use-react-modal": "^0.0.9"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-transform-react-constant-elements": "^7.2.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-plugin-macros": "^2.5.0",
+    "babel-plugin-preval": "^3.0.1",
+    "babel-plugin-styled-components": "^1.8.0",
+    "flow-bin": "^0.83.0",
+    "flow-typed": "^2.5.1",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4",
+    "raw-loader": "^1.0.0",
+    "yaml-front-matter": "^4.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn run flow focus-check",
+      "prettier --write",
+      "git add"
+    ],
+    "*.mdx?": [
+      "prettier --write --parser mdx",
+      "git add"
+    ]
+  }
+}
