@@ -27,11 +27,11 @@ module.exports = {
     },
   ],
   author: {
-    name: 'Victor Zhou',
+    name: 'Ratan Kaliani',
     photo: '/photo2.png',
     photoLarge: '/photo2-large.png',
     bio:
-      'SWE @ Facebook. CS \'19 @ Princeton. I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/machine-learning/">machine learning</a>, and <a href="/tags/">more topics</a>.',
+      'SWE @ Virgil QR. EE/CS @ Berkeley. I blog about <a href="/tag/web-development/">web development</a>, <a href="/tag/machine-learning/">machine learning</a>, and <a href="/tags/">more topics</a>.',
     contacts: {
       email: 'vzhou842@gmail.com',
       twitter: 'victorczhou',
